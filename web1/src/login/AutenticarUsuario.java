@@ -2,7 +2,7 @@ package login;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import javax.servlet.RequestDispatcher;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -35,7 +35,7 @@ public class AutenticarUsuario extends HttpServlet {
 				out.println("</head>");
 				out.println("<body>");
 				out.println("Login efeituado com Sucesso!");
-				out.println("<meta http-equiv=\"refresh\" content=\"0;url=http://localhost:8080/web1/CalculoAniver.html\" />");
+				out.println("<meta http-equiv=\"refresh\" content=\"0;url=http://localhost:8080/web1/CalculoAniverJSP.jsp\" />");
 				out.println("</body>");
 				out.println("</html>");
 				
@@ -48,7 +48,7 @@ public class AutenticarUsuario extends HttpServlet {
 				out.println("</head>");
 				out.println("<body>");
 				out.println("Usuário ou senha inválidos");
-				out.println("<a href=\"Login.html\"> Tentar novamente </a>");
+				out.println("<a href=\"LoginJSP.jps\"> Tentar novamente </a>");
 				out.println("</body>");
 				out.println("</html>");
 				
