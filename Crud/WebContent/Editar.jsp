@@ -12,7 +12,7 @@
 			Usuario user = (Usuario) request.getAttribute("usr");
 			String pos = request.getParameter("posicao");
 		%>
-		<div align="center">
+		<div align="right">
 			<form action="crud" method="post">
 				<label>Nome</label>
 				<br/>
