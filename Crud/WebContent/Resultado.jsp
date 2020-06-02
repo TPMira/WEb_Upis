@@ -6,7 +6,7 @@
 <html>
 	<head>
 		<meta charset="ISO-8859-1">
-		<title>Insert title here</title>
+		<title>Resultado do crud</title>
 	</head>
 	<body>
 		<% List<Usuario> list = (List<Usuario>)request.getAttribute("listUsuarios"); %>
